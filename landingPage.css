@@ -133,14 +133,6 @@ strong {
   background-color: black;
   min-height: 40vh;
 }
-.footer {
-  margin: 45px;
-  padding: 25px;
-
-  display: flex;
-  justify-content: space-evenly;
-  color: #fff;
-}
 
 .content {
   display: flex;
@@ -169,4 +161,19 @@ strong {
 .rightSide img {
   max-width: 70%;
   max-height: 70%;
+}
+.footer {
+  /* margin: 45px; */
+  padding: 25px;
+  gap: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  color: inherit;
+}
+.Copyright {
+  text-align: center;
+}
+.fullfooter {
+  background-color: rgb(122, 19, 182);
+  padding-bottom: 15px;
 }
